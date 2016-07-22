@@ -1,0 +1,1 @@
+$(function() {	var viewer = $("#fullscren");	$(".img").click(function() {		viewer.css("background-image",$(this).css("background-image")).fadeIn(200);	});	$("#crossIcon,#fullscren").click(function() {		viewer.fadeOut(200);	});});
