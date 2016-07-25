@@ -14,12 +14,6 @@ $attr = array(
 );
 $attr[$page] = "selected";
 switch($page) {
-    case "dynamic": {
-        $href["dynamic"]     = "./";
-        $href["nosotros"]    = "nosotros/";
-        $href["simuladores"] = "simuladores/";
-        $href["contacto"]    = "contacto/";
-    }break;
     case "nosotros": {
         $href["dynamic"]     = "../";
         $href["nosotros"]    = "../nosotros/";
@@ -37,6 +31,12 @@ switch($page) {
         $href["nosotros"]    = "../nosotros/";
         $href["simuladores"] = "../simuladores/";
         $href["contacto"]    = "./";
+    }break;
+    default: {
+        $href["dynamic"]     = "./";
+        $href["nosotros"]    = "nosotros/";
+        $href["simuladores"] = "simuladores/";
+        $href["contacto"]    = "contacto/";
     }break;
 }
 ?>
