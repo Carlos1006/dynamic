@@ -5,7 +5,7 @@
     <title>Dynamic Simulation</title>
     <!--<link rel="shortcut icon" href="http://example.com/myicon.ico" />-->
     <link rel="icon" type="image/png" href="rsc/img/dynamic18x18.png" />
-    <?php include("include/metas.php"); ?>
+    <?php include( "include/metas.php"); ?>
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/header.css" />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
@@ -22,21 +22,36 @@
 </head>
 
 <body>
-<?php include("include/header.php"); ?>
+<?php include( "include/header.php"); ?>
 <div id="scroller">
-    <div class="scroller_item" index="0" selected><label>01</label></div>
-    <div class="scroller_item" index="1"><label>02</label></div>
-    <div class="scroller_item" index="2"><label>03</label></div>
-    <div class="scroller_item" index="3"><label>04</label></div>
-    <div class="scroller_item" index="4"><label>05</label></div>
-    <div class="scroller_item" index="5"><label>06</label></div>
+    <div class="scroller_item" index="0" selected>
+        <label>01</label>
+    </div>
+    <div class="scroller_item" index="1">
+        <label>02</label>
+    </div>
+    <div class="scroller_item" index="2">
+        <label>03</label>
+    </div>
+    <div class="scroller_item" index="3">
+        <label>04</label>
+    </div>
+    <div class="scroller_item" index="4">
+        <label>05</label>
+    </div>
+    <div class="scroller_item" index="5">
+        <label>06</label>
+    </div>
 </div>
 <div id="main" class="col_1 container">
-    <div id="videoContainer"> <video src="rsc/video/572605547.webm" autoplay loop></video> </div>
+    <div id="videoContainer">
+        <video src="rsc/video/572605547.webm" autoplay loop></video>
+    </div>
     <div class="darkWall"></div>
     <article class="margin">
         <div class="mainContainer col_1">
-            <div id="message"> <span id="top">Los mejores simuladores de vehiculos pesados Con la mejor tecnología e innovación</span> <span id="bottom">En Dynamic Simulation somos especialistas en el desarrollo de soluciones formativas de altas prestaciones basadas en la simulación, garantizando la seguridad en el proceso de aprendizaje y certificación, incrementando así la productividad.</span> <br> <a href="simuladores/">Ver más</a> </div>
+            <div id="message"> <span id="top">Los mejores simuladores de vehiculos pesados Con la mejor tecnología e innovación</span> <span id="bottom">En Dynamic Simulation somos especialistas en el desarrollo de soluciones formativas de altas prestaciones basadas en la simulación, garantizando la seguridad en el proceso de aprendizaje y certificación, incrementando así la productividad.</span>
+                <br> <a href="simuladores/">Ver más</a> </div>
         </div>
     </article>
 </div>
@@ -58,12 +73,24 @@
         <div class="mainContainer">
             <div id="why_message"> <span id="why_title">¿Por qué usar los <br>simuladores simestruck?</span>
                 <ul>
-                    <li><label>Cumple los requerimientos establecidos por la SCT para la obtención y renovación de Licencia Federal.</label></li>
-                    <li><label>Permite la práctica de situaciones de riesgo, imposibles de practicar en la vida real.</label></li>
-                    <li><label>La formación con simuladores reduce el riesgo de accidentes.</label></li>
-                    <li><label>Aumenta el rendimiento y capacidad de sus operadores.</label></li>
-                    <li><label>Cuenta con bitácora de resultados por operador.</label></li>
-                    <li><label>Reduce costos de operación y uso de equipo de transporte.</label></li>
+                    <li>
+                        <label>Cumple los requerimientos establecidos por la SCT para la obtención y renovación de Licencia Federal.</label>
+                    </li>
+                    <li>
+                        <label>Permite la práctica de situaciones de riesgo, imposibles de practicar en la vida real.</label>
+                    </li>
+                    <li>
+                        <label>La formación con simuladores reduce el riesgo de accidentes.</label>
+                    </li>
+                    <li>
+                        <label>Aumenta el rendimiento y capacidad de sus operadores.</label>
+                    </li>
+                    <li>
+                        <label>Cuenta con bitácora de resultados por operador.</label>
+                    </li>
+                    <li>
+                        <label>Reduce costos de operación y uso de equipo de transporte.</label>
+                    </li>
                 </ul> <a href="simuladores/">Ver simuladores</a> </div>
         </div>
     </article>
@@ -74,16 +101,36 @@
         <div class="mainContainer">
             <div id="sim_message"> <span id="sim_title">Simuladores para<br> vehículos pesados</span> <span id="sim_subtitle">                            Contamos con la simulación de diferentes vehículos en un mismo <br>                             para evaluar y certificar las aptitudes de un conductor de vehículos pesados. <br>                            Los distintos vehiculos que se pueden elegir son:                        </span>
                 <ul>
-                    <li><label>Panel</label></li>
-                    <li><label>Auto Bus Urbano</label></li>
-                    <li><label>Auto Bus Foráneo</label></li>
-                    <li><label>Auto Bus Urbano Articulado (BRT)</label></li>
-                    <li><label>Auto Bus Urbano Doblemente Articulado (BRT)</label></li>
-                    <li><label>Camión Unitario</label></li>
-                    <li><label>Tracto Camión Articulado</label></li>
-                    <li><label>Tracto Camión Doblemente Articulado</label></li>
-                    <li><label>Camión Auto Tanque Unitario</label></li>
-                    <li><label>Camión Auto Tanque Articulado</label></li>
+                    <li>
+                        <label>Panel</label>
+                    </li>
+                    <li>
+                        <label>Auto Bus Urbano</label>
+                    </li>
+                    <li>
+                        <label>Auto Bus Foráneo</label>
+                    </li>
+                    <li>
+                        <label>Auto Bus Urbano Articulado (BRT)</label>
+                    </li>
+                    <li>
+                        <label>Auto Bus Urbano Doblemente Articulado (BRT)</label>
+                    </li>
+                    <li>
+                        <label>Camión Unitario</label>
+                    </li>
+                    <li>
+                        <label>Tracto Camión Articulado</label>
+                    </li>
+                    <li>
+                        <label>Tracto Camión Doblemente Articulado</label>
+                    </li>
+                    <li>
+                        <label>Camión Auto Tanque Unitario</label>
+                    </li>
+                    <li>
+                        <label>Camión Auto Tanque Articulado</label>
+                    </li>
                 </ul> <a href="simuladores/">Ver simuladores</a> </div>
         </div>
     </article>
@@ -95,27 +142,52 @@
                 <ul>
                     <li>
                         <div class="image_section"></div>
-                        <div class="title_section"><label>Alterar distintas condiciones<br>climatológicas.<br>&nbsp;</label></div>
+                        <div class="title_section">
+                            <label>Alterar distintas condiciones
+                                <br>climatológicas.
+                                <br>&nbsp;</label>
+                        </div>
                     </li>
                     <li>
                         <div class="image_section"></div>
-                        <div class="title_section"><label>Alterar el momento <br> del dia.<br>&nbsp;</label></div>
+                        <div class="title_section">
+                            <label>Alterar el momento
+                                <br> del dia.
+                                <br>&nbsp;</label>
+                        </div>
                     </li>
                     <li>
                         <div class="image_section"></div>
-                        <div class="title_section"><label>Alterar los parámetros <br> de carga.<br>&nbsp;</label></div>
+                        <div class="title_section">
+                            <label>Alterar los parámetros
+                                <br> de carga.
+                                <br>&nbsp;</label>
+                        </div>
                     </li>
                     <li>
                         <div class="image_section"></div>
-                        <div class="title_section"><label>Provocar averías.<br>&nbsp;<br>&nbsp;</label></div>
+                        <div class="title_section">
+                            <label>Provocar averías.
+                                <br>&nbsp;
+                                <br>&nbsp;</label>
+                        </div>
                     </li>
                     <li>
                         <div class="image_section"></div>
-                        <div class="title_section"><label>Provocar eventos en <br> la carretera.<br>&nbsp;</label></div>
+                        <div class="title_section">
+                            <label>Provocar eventos en
+                                <br> la carretera.
+                                <br>&nbsp;</label>
+                        </div>
                     </li>
                     <li>
                         <div class="image_section"></div>
-                        <div class="title_section"><label>Generar reportes para<br>la toma de decisiones. <br> <a class="no-btn">Ver ejemplo</a></label></div>
+                        <div class="title_section">
+                            <label>Generar reportes para
+                                <br>la toma de decisiones.
+                                <br> <a class="no-btn">Ver ejemplo</a>
+                            </label>
+                        </div>
                     </li>
                 </ul> <a href="simuladores/">Ver más</a> </div>
         </div>
