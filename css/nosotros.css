@@ -555,5 +555,9 @@ span.black {
 @media (min-width: 0px) and (max-width: 360px) {}
 @media (max-width: 858px) and (height: 1024px) {}
 @media (max-width: 414px) and (height: 736px) {}
-@media only screen and (max-device-width: 480px) {}
-@media only screen and (max-device-width: 480px) {}
+@media only screen and (max-device-width: 480px) {
+    #col_1_2 {
+        width: 95%;
+        padding-left: 10%;
+    }
+}

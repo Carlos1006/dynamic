@@ -22,7 +22,12 @@
 </head>
 
 <body>
-<?php include( "include/header.php"); ?>
+<?php
+include( "include/header.php");
+
+if(!ifMobileDevice()) {
+    //header('Location: http://detectmobilebrowser.com/mobile');
+?>
 <div id="scroller">
     <div class="scroller_item" index="0" selected>
         <label>01</label>
@@ -43,9 +48,12 @@
         <label>06</label>
     </div>
 </div>
+<?php
+    }
+?>
 <div id="main" class="col_1 container">
     <div id="videoContainer">
-        <video src="rsc/video/572605547.webm" autoplay loop></video>
+        <video src="rsc/video/572605547.mp4" autoplay loop></video>
     </div>
     <div class="darkWall"></div>
     <article class="margin">
@@ -99,7 +107,9 @@
     <div class="darkWall"></div>
     <article class="margin">
         <div class="mainContainer">
-            <div id="sim_message"> <span id="sim_title">Simuladores para<br> vehículos pesados</span> <span id="sim_subtitle">                            Contamos con la simulación de diferentes vehículos en un mismo <br>                             para evaluar y certificar las aptitudes de un conductor de vehículos pesados. <br>                            Los distintos vehiculos que se pueden elegir son:                        </span>
+            <div id="sim_message">
+                <span id="sim_title">Simuladores para<br> vehículos pesados</span>
+                <span id="sim_subtitle">Contamos con la simulación de diferentes vehículos en un mismo para evaluar y certificar las aptitudes de un conductor de vehículos pesados.Los distintos vehiculos que se pueden elegir son:</span>
                 <ul>
                     <li>
                         <label>Panel</label>
@@ -138,7 +148,10 @@
 <div id="soft" class="col_1 container">
     <article class="margin">
         <div class="mainContainer">
-            <div id="soft_message"> <span id="soft_title">                            Nuestro software socrates es la <br>                             formación más segura y sostenible                        </span> <span id="soft_subtitle">                            Controle e interactúe con el simulador y el usuario en tiempo real. Puede configurar y alterar parámetros de la                            simulación como:                        </span>
+            <div id="soft_message">
+                <span id="soft_title">Nuestro software socrates es la formación más segura y sostenible</span>
+                <span id="soft_subtitle">Controle e interactúe con el simulador y el usuario en tiempo real. Puede configurar y alterar parámetros de la simulación como:
+                </span>
                 <ul>
                     <li>
                         <div class="image_section"></div>
