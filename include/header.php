@@ -56,12 +56,50 @@ switch($page) {
         <a class="spanMiddle" href="https://www.facebook.com/DynamicSimulation/" id="facebook"></a>
         <a class="spanMiddle" href="https://www.youtube.com/channel/UCBCgeNNmQ1f5nmkA5-pJ_LQ" id="twitter"></a>
     </div>
+    <?php
+        if(ifMobileDevice()) {
+    ?>
+           <span id="menuIcon"></span>
+    <?php
+        }
+    ?>
     <span class="col_2" id="dynamicIcon"></span>
     <a id="linkerToMain" href="<?php echo $href["dynamic"] ?>"></a>
-    <div class="col_10 navIcon link" href="<?php echo $href["dynamic"] ?>"     <?php echo $attr["dynamic"] ?>     id="inicioIcon"><label>Inicio</label></div>
-    <div class="col_10 navIcon link" href="<?php echo $href["nosotros"] ?>"    <?php echo $attr["nosotros"] ?>    id="nosotrosIcon"><label>Nosotros</label></div>
-    <div class="col_10 navIcon link" href="<?php echo $href["simuladores"] ?>" <?php echo $attr["simuladores"] ?> id="simuladoresIcon"><label>Simuladores</label></div>
-    <div class="col_10 navIcon link" href="<?php echo $href["contacto"] ?>"    <?php echo $attr["contacto"] ?>    id="contactoIcon"><label>Contacto</label></div>
-</header>
+    <?php
+        if(!ifMobileDevice()) {
+    ?>
+            <div class="col_10 navIcon link" href="<?php echo $href["dynamic"] ?>"     <?php echo $attr["dynamic"] ?>     id="inicioIcon"><label>Inicio</label></div>
+            <div class="col_10 navIcon link" href="<?php echo $href["nosotros"] ?>"    <?php echo $attr["nosotros"] ?>    id="nosotrosIcon"><label>Nosotros</label></div>
+            <div class="col_10 navIcon link" href="<?php echo $href["simuladores"] ?>" <?php echo $attr["simuladores"] ?> id="simuladoresIcon"><label>Simuladores</label></div>
+            <div class="col_10 navIcon link" href="<?php echo $href["contacto"] ?>"    <?php echo $attr["contacto"] ?>    id="contactoIcon"><label>Contacto</label></div>
+    <?php
+        }
+    ?>
 
+</header>
+<?php
+    if(ifMobileDevice()) {
+?>
+        <div id="linkerMenu">
+            <div id="returnMenu"></div>
+            <div class="linkerMenuNavIcon link" href="<?php echo $href["dynamic"] ?>">
+                <div class="image_navIcon" id="image_navIcon_inicio" ></div>
+                <div class="path_navIcon"><label>Inicio</label></div>
+            </div>
+            <div class="linkerMenuNavIcon link" href="<?php echo $href["nosotros"] ?>">
+                <div class="image_navIcon" id="image_navIcon_nosotros" ></div>
+                <div class="path_navIcon"><label>Nosotros</label></div>
+            </div>
+            <div class="linkerMenuNavIcon link"  href="<?php echo $href["simuladores"] ?>">
+                <div class="image_navIcon" id="image_navIcon_simuladores"></div>
+                <div class="path_navIcon"><label>Simuladores</label></div>
+            </div>
+            <div class="linkerMenuNavIcon link"  href="<?php echo $href["contacto"] ?>">
+                <div class="image_navIcon" id="image_navIcon_contacto"></div>
+                <div class="path_navIcon"><label>Contacto</label></div>
+            </div>
+        </div>
+<?php
+    }
+?>
 

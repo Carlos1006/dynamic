@@ -10,12 +10,9 @@ var currentLayer = 0,
     scrollable = true,
     timeOut = 0,
     duration = 1000;
-$(window).on('beforeunload', function() {
-    $(window).scrollTop(0);
-});
 $(window).on("load", function() {
     linker();
-    $(window).scrollTop(0);
+
     $(".scroller_item").on("click", function() {
         $(".scroller_item").removeAttr("selected");
         $(this).attr("selected", "");
@@ -54,11 +51,13 @@ $(window).on("load", function() {
         });
     }
 
-    $(window).resize(setPagesOffsets);
+
     if(!ifMobileDevie()) {
         initParticles();
+        $(window).resize(setPagesOffsets);
+        setPagesOffsets();
     }
-    setPagesOffsets();
+
 });
 
 function setPagesOffsets() {

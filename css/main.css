@@ -260,7 +260,6 @@
     text-transform: uppercase;
     font-stretch: ultra-condensed;
     color: rgb(39, 39, 39);
-    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.75);
     text-align: left;
     padding-left: 4%;
     display: inline-block;
@@ -715,7 +714,6 @@
     text-transform: uppercase;
     font-stretch: ultra-condensed;
     color: black;
-    text-shadow: 0 2px 0 rgba(0, 0, 0, .75);
     margin-top: 78px;
     display: inline-block;
 }
@@ -778,4 +776,11 @@
     background-size: auto 120%;
     background-position-y: -100px;
     background-position-x: -300px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .container {
+        height:650px !important;
+    }
 }

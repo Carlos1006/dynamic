@@ -267,7 +267,6 @@ a:not(.no-btn) {
         padding-left: 5%;
         color: rgb(30, 30, 30);
         font-size: 0.8em;
-        font-weight: 600;
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
     }
     #tech_simu {
@@ -677,11 +676,6 @@ a:not(.no-btn) {
     #tech::before {
         background-position: center;
     }
-}
-@media only screen and (max-device-width: 480px) {
-    #tech #tech_title {
-        padding-top: 10%;
-    }
     #main span {
         font-size: 1.5em;
         text-align: left !important;
@@ -731,7 +725,7 @@ a:not(.no-btn) {
         width: 100%;
     }
     #why_message {
-        top: 24% !important;
+        top: 12% !important;
         left: 0;
         right: auto;
         padding-left: 0;
@@ -739,19 +733,25 @@ a:not(.no-btn) {
     #why #why_title {
         line-height: 35px;
         font-size: 2.1em;
-        margin-bottom: 12px;
+        margin-bottom: 35px;
+        margin-left: 10%;
     }
     #why li {
-        font-size: 0.9em;
-        min-height: 41px;
+        font-size: 0.82em;
+        min-height: 35px;
     }
     #why li:last-child {
         margin-bottom: 11px;
     }
-    #why a,#sim a{
+    #why a, #sim a {
+        margin-top: 45px;
         margin-left: Calc(45% - 100px);
     }
+    #sim a {
+        margin-top: 25px;
+    }
     #sim_message {
+        top: 10%;
         padding-left: 3%;
     }
     #sim #sim_title {
@@ -760,6 +760,7 @@ a:not(.no-btn) {
     }
     #sim #sim_subtitle {
         font-size: 0.9em;
+        margin-bottom: 35px;
     }
     #sim li {
         font-size: 0.82em;
@@ -837,6 +838,67 @@ a:not(.no-btn) {
     }
     #container_10 {
         margin-bottom: 30px;
+    }
+    #contact_message {
+        top: 11%;
+    }
+    #contact_ a {
+        margin-top: 35px !important;
+    }
+
+    /*Para todos*/
+    #text_0 {
+        top: 56px;
+    }
+    #road {
+        height: 200px;
+    }
+    #road {
+        background-position-y: 54px;
+    }
+    #road:after {
+        top: 244px;
+    }
+    #container_0 {
+        margin-top: 225px;
+    }
+    #dynamicIcon::after, #dynamicIcon::before {
+        background-position-x: 85%;
+    }
+    #linkerToMain {
+        left: auto;
+        width: 75%;
+        right: 0;
+    }
+    .container {
+        height:650px;
+    }
+    #message {
+        top: 23%;
+    }
+    #message>a {
+        margin-top: 52px !important;
+    }
+    #tech_message {
+        top: 14%;
+    }
+    #soft_message {
+        top: 8%;
+    }
+    #soft #soft_subtitle {
+        margin-bottom: 27px;
+    }
+    #soft a:not(.no-btn) {
+        margin-top: 27px;
+    }
+    #tech_message {
+        top: 7%;
+    }
+    .tech_row {
+        padding-top: 40px;
+    }
+    #tech a {
+        margin-top: 35px;
     }
 }
 /* Portrait */

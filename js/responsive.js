@@ -4,11 +4,6 @@ $(function() {
     main = $("#main");
     container = $(".container");
 
-    if(ifMobileDevie()) {
-        container.height(650);
-        return;
-    }
-
     $(window).resize(windowsResize);
 
     function windowsResize() {
