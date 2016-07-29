@@ -793,6 +793,51 @@ a:not(.no-btn) {
     #contact_ #contact_title {
         margin-top: 57px;
     }
+    img {
+        margin-left: -40%;
+    }
+    #container_6 div[id^='col_5_'] {
+        width: Calc((180% / 2) - 8px);
+        height: 20%;
+        margin-left: 5vw;
+    }
+    #container_6 {
+        height: 979px;
+    }
+    .columnPadding {
+        height: 25%;
+    }
+    #container_6 div[id^='col_5_']::after {
+        top: 210px;
+    }
+    #container_7 {
+        background-size: 290% 114%;
+    }
+    #text_8 {
+        margin-top: 115px;
+    }
+    #par_13,#par_14{
+        opacity: 1;
+    }
+    #container_7 li, #container_8 li{
+        font-size: 9.5pt;
+    }
+    #container_8 {
+        height: 500px;
+    }
+    #container_9 {
+        background: url(../rsc/img/software_fondo.png) no-repeat center;
+        margin-bottom: 25px;
+    }
+    #par_15 {
+        line-height: 22px !important;
+    }
+    #text_10 {
+        margin-top: 57px;
+    }
+    #container_10 {
+        margin-bottom: 30px;
+    }
 }
 /* Portrait */
 

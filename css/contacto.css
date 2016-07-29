@@ -407,5 +407,38 @@ iframe {
 @media (min-width: 0px) and (max-width: 360px) {}
 @media (max-width: 858px) and (height: 1024px) {}
 @media (max-width: 414px) and (height: 736px) {}
-@media only screen and (max-device-width: 480px) {}
-@media only screen and (max-device-width: 480px) {}
+@media only screen and (max-device-width: 480px) {
+    #text_1 {
+        font-size: 8vw;
+    }
+    #par_0 {
+        padding-top: 9vw;
+    }
+    .paragraph {
+        font-size: 9.5pt !important;
+        line-height: normal !important;
+    }
+    #text_1 {
+        font-size: 8vw !important;
+    }
+    .button {
+        font-size: 11pt;
+    }
+    br::after {
+        display:none;
+    }
+    #container_0 {
+        margin-left:5%;
+        padding-left:0%;
+        height: 520px;
+        width: 85%;
+    }
+    #par_4 {
+        margin-top: 13px;
+        margin-bottom: 18px;
+    }
+    input {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+}

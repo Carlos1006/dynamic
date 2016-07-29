@@ -560,4 +560,24 @@ span.black {
         width: 95%;
         padding-left: 10%;
     }
+    #text_2 {
+        margin-top: 190px;
+    }
+    #container_1 {
+        background-size: 121% 137%;
+        background-position-y: -193px;
+    }
+    #col_3_1::after, #col_3_2::after, #col_3_3::after {
+        background-position-x: Calc(5% + 1.0vw);
+        background-size: auto 27%;
+    }
+    #col_3_1::after {
+        background-position-y: 36px;
+    }
+    #col_3_2::after {
+        background-position-y: 41px;
+    }
+    #col_3_3::after {
+        background-position-y: 37px;
+    }
 }

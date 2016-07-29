@@ -53,7 +53,17 @@ if(!ifMobileDevice()) {
 ?>
 <div id="main" class="col_1 container">
     <div id="videoContainer">
-        <video src="rsc/video/572605547.mp4" autoplay loop></video>
+        <?php
+            if(!ifMobileDevice()) {
+        ?>
+                <video src="rsc/video/572605547.mp4" autoplay loop></video>
+        <?php
+            }else {
+        ?>
+                <img src="rsc/img/mobiledynamicbg.jpg">
+        <?php
+            }
+        ?>
     </div>
     <div class="darkWall"></div>
     <article class="margin">
