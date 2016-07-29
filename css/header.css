@@ -360,4 +360,18 @@ header[typeB] {
     .linkerMenuNavIcon * {
         pointer-events:none;
     }
+    .social {
+        width:50%;
+        height:75px;
+        float:left;
+        background:transparent no-repeat center;
+        background-size:auto 32%;
+    }
+    #yt {
+        background-image:url("../rsc/img/dynamic_yt.png");
+        background-size:auto 40%;
+    }
+    #fb {
+        background-image:url("../rsc/img/dynamic_fb.png");
+    }
 }

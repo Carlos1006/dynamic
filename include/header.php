@@ -98,6 +98,8 @@ switch($page) {
                 <div class="image_navIcon" id="image_navIcon_contacto"></div>
                 <div class="path_navIcon"><label>Contacto</label></div>
             </div>
+            <div class="social link" id="yt" href="https://www.youtube.com/channel/UCBCgeNNmQ1f5nmkA5-pJ_LQ"></div>
+            <div class="social link" id="fb" href="https://www.facebook.com/DynamicSimulation/"></div>
         </div>
 <?php
     }
