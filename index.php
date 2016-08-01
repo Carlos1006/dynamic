@@ -19,6 +19,10 @@
     <script src='js/responsive.js'></script>
     <script src='js/main.js'></script>
     <script src='js/linker.js'></script>
+
+    <!--[if IE]>
+    <link rel="stylesheet" type="text/css" href="css/explorer.css" />
+    <![endif]-->
 </head>
 
 <body>

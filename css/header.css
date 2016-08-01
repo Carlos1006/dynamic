@@ -172,6 +172,7 @@ footer {
 header[typeB] {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 @media (min-width: 650px) {
     header[typeB] {
         height: 53px;
@@ -204,6 +205,7 @@ header[typeB] {
         width: Calc(75% / 4);
     }
 }
+
 #linkerToMain {
     position: absolute;
     height: Calc(100% - 35px);

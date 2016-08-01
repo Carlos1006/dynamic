@@ -32,7 +32,7 @@ $(window).on("load", function() {
         });
         $(document).trigger("scroll");
     }else {
-        $(document).bind('mousewheel', function(e) {
+        $(document).bind('mousewheel DOMMouseScroll', function(e) {
             if (scrollable) {
                 if (e.originalEvent.wheelDelta / 120 > 0) {
                     if (currentLayer > 0) {

@@ -12,6 +12,7 @@
     <script src="../js/libs/jquery-3.0.0.min.js"></script>
     <script src="../js/scroll.js"></script>
     <script src="../js/linker.js"></script>
+    <script src="../js/contacto.js"></script>
 </head>
 
 <body>
@@ -41,7 +42,7 @@
             <input id="in_1" type="text" placeholder="Télefono">
             <input id="in_2" type="text" placeholder="Email">
             <input id="in_3" type="text" placeholder="Asunto">
-            <textarea placeholder="Mensaje"></textarea>
+            <textarea id="in_4" placeholder="Mensaje"></textarea>
             <button id="btn_3" class="button blue_button">enviar mensaje</button>
         </div>
     </div>
