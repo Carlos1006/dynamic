@@ -189,7 +189,6 @@ textarea {
 }
 ::-webkit-input-placeholder {
     /* Chrome/Opera/Safari */
-
     text-transform: uppercase;
 }
 ::-moz-placeholder {
@@ -204,7 +203,6 @@ textarea {
 }
 :-moz-placeholder {
     /* Firefox 18- */
-
     text-transform: uppercase;
 }
 input:nth-child(odd) {
@@ -454,4 +452,8 @@ iframe {
 
 #btn_3:hover {
     cursor:pointer;
+}
+input,textarea {
+    font-family:"Open Sans",sans-serif;
+    font-size:11pt;
 }
