@@ -497,7 +497,7 @@
     display: inline-block;
 }
 #sim #sim_subtitle {
-    width: 100%;
+    width: 75%;
     color: rgba(255, 255, 255, 0.8);
     text-align: left;
     font-size: 11pt;
@@ -782,5 +782,17 @@
 @media only screen and (max-device-width: 480px) {
     .container {
         height:650px !important;
+    }
+}
+
+@-moz-document url-prefix() {
+    #tech_simu {
+        background: transparent url("../rsc/img/simu.png") no-repeat scroll -10% 125% / auto 85%;
+    }
+    #why #renderContainer {
+        background-position:94px 77%;
+    }
+    #contact_ #background {
+        background-position:-300px -100px !important;
     }
 }

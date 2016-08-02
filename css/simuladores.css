@@ -1141,3 +1141,15 @@ span.black {
         margin-bottom: 45px;
     }
 }
+
+@-moz-document url-prefix() {
+    #road {
+        background-position:center 60%;
+    }
+    #container_1 {
+        background-position:center  -111px;
+    }
+    #col_3_1::after, #col_3_2::after, #col_3_3::after, #col_4_1::after, #col_4_2::after, #col_4_3::after {
+        background-position:25px 41px;
+    }
+}

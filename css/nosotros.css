@@ -584,3 +584,18 @@ span.black {
         margin-top: 20px;
     }
 }
+
+@-moz-document url-prefix() {
+    #road {
+        background-position:center 60%;
+    }
+    #col_3_1::after,
+    #col_3_2::after,
+    #col_3_3::after {
+        background-position:51% 40%;
+
+    }
+    #container_1 {
+        background-position:center -162px;
+    }
+}

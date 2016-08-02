@@ -1,3 +1,4 @@
+
 header {
     display: block;
     font-size: 21px;
@@ -123,6 +124,7 @@ span.white {
     background: transparent no-repeat;
     background-position-x: center;
     background-position-y: 32%;
+    background-position:center 32%;
     background-size: 25% auto;
     display: table;
     opacity: 0.6;
@@ -375,5 +377,18 @@ header[typeB] {
     }
     #fb {
         background-image:url("../rsc/img/dynamic_fb.png");
+    }
+}
+
+@-moz-document url-prefix() {
+    .navIcon {
+        background-position:center 32%;
+    }
+    #dynamicIcon::after,
+    #dynamicIcon::before {
+        background-position:0;
+    }
+    header[typeB] .navIcon {
+        background-position:0 center !important;
     }
 }

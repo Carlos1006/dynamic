@@ -34,9 +34,11 @@ $(window).on("load", function() {
         });
         $(document).trigger("scroll");
     }else {
-        $(document).bind('mousewheel DOMMouseScroll', function(e) {
+        $(document).bind('mousewheel DOMMouseScroll wheel', function(e) {
             if (scrollable) {
-                if (e.originalEvent.wheelDelta / 120 > 0) {
+                var delta = parseInt(e.originalEvent.wheelDelta || -e.originalEvent.deltaY);
+                console.log(e.originalEvent);
+                if (delta / 120 > 0) {
                     if (currentLayer > 0) {
                         currentLayer--;
                     }
@@ -125,4 +127,8 @@ function detectIE() {
     }
     // other browser
     return false;
+}
+
+function ifFirefox() {
+    return navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
 }

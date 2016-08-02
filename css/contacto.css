@@ -457,3 +457,9 @@ input,textarea {
     font-family:"Open Sans",sans-serif;
     font-size:11pt;
 }
+
+@-moz-document url-prefix() {
+    #road {
+        background-position:center 60%;
+    }
+}
