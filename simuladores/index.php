@@ -105,7 +105,7 @@
         </div>
         <div class="column" id="col_4_3">
             <p id="par_11" class="paragraph"> Generar reportes para la toma de decisiones.
-                <br> <a>Ver ejemplo</a> </p>
+                <br> <a class="no-btn ejemplo">Ver ejemplo</a> </p>
         </div>
     </div>
     <div id="text_7" class="text front mayus title small">diferentes tipos de escenarios</div>

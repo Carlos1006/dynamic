@@ -8,6 +8,9 @@ a:not(.no-btn) {
     text-decoration: none;
     text-align: center;
 }
+.no-btn:hover {
+    cursor: pointer !important;
+}
 @media (min-width: 1367px) {
     #videoContainer video {
         height: 101vh;

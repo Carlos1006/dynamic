@@ -22,4 +22,12 @@ $(function() {
         link.href = url;
         link.click();
     });
+    $(".ejemplo").on("click", function() {
+        var name = "Socrates.pdf";
+        var url = "../rsc/pdf/"+name;
+        var link = document.createElement("a");
+        link.download = name;
+        link.href = url;
+        link.click();
+    });
 });

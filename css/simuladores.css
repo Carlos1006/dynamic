@@ -657,6 +657,9 @@ span.black {
     opacity: 0 !important;
     pointer-events: none;
 }
+#col_3_1::after, #col_3_2::after, #col_3_3::after, #col_4_1::after, #col_4_2::after, #col_4_3::after {
+    pointer-events: none;
+}
 @media (min-width: 1367px) {}
 @media (max-width: 1330px) {
     #text_8 {

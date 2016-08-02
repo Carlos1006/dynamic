@@ -212,7 +212,7 @@ if(!ifMobileDevice()) {
                         <div class="title_section">
                             <label>Generar reportes para
                                 <br>la toma de decisiones.
-                                <br> <a class="no-btn">Ver ejemplo</a>
+                                <br> <a class="no-btn ejemplo">Ver ejemplo</a>
                             </label>
                         </div>
                     </li>
